@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: scraperapi-sdk
+Version: 0.2.2
+Summary: Scraper API SDK
+Home-page: https://scraperapi.com
+Author: ScraperAPI
+Author-email: dan@scraperapi.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# Install
+```bash
+pip install scraperapi-sdk
+```
+
+```python
+from scraper_api import ScraperAPIClient
+client = ScraperAPIClient("<token>")
+```
+
